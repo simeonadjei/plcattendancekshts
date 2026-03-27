@@ -16,7 +16,7 @@ export default function Home() {
       code: form.get('code')
     };
 
-    const scriptUrl = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';  // 👈 YOUR GAS URL
+    const scriptUrl = 'https://script.google.com/macros/s/AKfycbywG3WFQYtsrixlYXOe-O_sMSllbe4kGMMu8BUTNtJmVczfXE7fps_5GT26iMVtH16A/exec';
     const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(scriptUrl)}`;
 
     try {
